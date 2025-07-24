@@ -1,0 +1,21 @@
+/* App.css - global styles for the JobNest app */
+
+.app-header {
+  background: #1976d2;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.app-footer {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+} 

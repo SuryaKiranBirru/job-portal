@@ -1,0 +1,132 @@
+.profile-section, .job-search-section, .recommended-jobs-section, .applied-jobs-section, .saved-jobs-section, .notifications-section, .resume-section {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+@media (max-width: 600px) {
+  .profile-section, .job-search-section, .recommended-jobs-section, .applied-jobs-section, .saved-jobs-section, .notifications-section, .resume-section {
+    padding: 0.5em;
+  }
+}
+
+/* Resume Section Specific Styles */
+.resume-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resume-status {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.resume-uploaded {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #28a745;
+  font-weight: 500;
+}
+
+.resume-missing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffc107;
+  font-weight: 500;
+}
+
+.status-icon {
+  font-size: 20px;
+}
+
+.view-resume-btn {
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.view-resume-btn:hover {
+  background: #0056b3;
+  text-decoration: none;
+  color: white;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.create-resume-btn, .upload-resume-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  flex: 1;
+  min-width: 140px;
+}
+
+.create-resume-btn {
+  background: #28a745;
+  color: white;
+}
+
+.create-resume-btn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.upload-resume-btn {
+  background: #007bff;
+  color: white;
+}
+
+.upload-resume-btn:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+.view-all-resumes-btn {
+  background: #6f42c1;
+  color: white;
+}
+
+.view-all-resumes-btn:hover {
+  background: #5a32a3;
+  transform: translateY(-1px);
+}
+
+/* Responsive Design for Resume Section */
+@media (max-width: 768px) {
+  .resume-actions {
+    flex-direction: column;
+  }
+  
+  .create-resume-btn, .upload-resume-btn {
+    width: 100%;
+  }
+  
+  .resume-status {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+} 

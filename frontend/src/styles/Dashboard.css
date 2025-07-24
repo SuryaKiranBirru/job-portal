@@ -1,0 +1,201 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 80px; /* Account for fixed navigation */
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-container section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-container section h3 {
+  margin: 0 0 20px 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+  
+  .dashboard-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .dashboard-container section {
+    padding: 15px;
+  }
+}
+
+/* Common button styles */
+.apply-btn, .save-btn, .view-btn, .edit-btn, .delete-btn, .approve-btn, .reject-btn, .ban-btn, .unban-btn, .shortlist-btn, .remove-btn, .investigate-btn, .resolve-btn, .dismiss-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  margin: 2px;
+}
+
+.apply-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.apply-btn:hover {
+  background: #229954;
+}
+
+.save-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #2980b9;
+}
+
+.view-btn {
+  background: #95a5a6;
+  color: #fff;
+}
+
+.view-btn:hover {
+  background: #7f8c8d;
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: #e67e22;
+}
+
+.delete-btn, .reject-btn, .remove-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.delete-btn:hover, .reject-btn:hover, .remove-btn:hover {
+  background: #c0392b;
+}
+
+.approve-btn, .shortlist-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.approve-btn:hover, .shortlist-btn:hover {
+  background: #229954;
+}
+
+.ban-btn {
+  background: #e67e22;
+  color: #fff;
+}
+
+.ban-btn:hover {
+  background: #d35400;
+}
+
+.unban-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.unban-btn:hover {
+  background: #229954;
+}
+
+.investigate-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.investigate-btn:hover {
+  background: #2980b9;
+}
+
+.resolve-btn {
+  background: #27ae60;
+  color: #fff;
+}
+
+.resolve-btn:hover {
+  background: #229954;
+}
+
+.dismiss-btn {
+  background: #95a5a6;
+  color: #fff;
+}
+
+.dismiss-btn:hover {
+  background: #7f8c8d;
+} 

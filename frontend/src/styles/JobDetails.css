@@ -1,0 +1,12 @@
+.job-details-container {
+  max-width: 700px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2em;
+}
+
+.job-info {
+  margin-bottom: 2em;
+} 

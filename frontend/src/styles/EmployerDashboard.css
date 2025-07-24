@@ -1,0 +1,13 @@
+.company-info-section, .job-posting-section, .posted-jobs-section, .applicants-section, .analytics-section {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+@media (max-width: 600px) {
+  .company-info-section, .job-posting-section, .posted-jobs-section, .applicants-section, .analytics-section {
+    padding: 0.5em;
+  }
+} 
